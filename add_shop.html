@@ -12,27 +12,27 @@
 <ul class="nav nav-tabs">
 	  <li role="presentation"><a href="manager_user.html">用户管理</a></li>
 	  <li role="presentation" ><a href="manager_car.html">车辆管理</a></li>
-	  <li role="presentation"><a href="manager_shop.html">店铺管理</a></li>
+	  <li role="presentation"  class="active"><a href="manager_shop.html">店铺管理</a></li>
 	  <li role="presentation"><a href="manager_order.html">订单管理</a></li>
 	  <li role="presentation" ><a href="manager_feedback.html">投诉管理</a></li>
-	  <li role="presentation"  class="active"><a href="manager_system.html">系统管理</a></li>
+	  <li role="presentation"><a href="manager_system.html">系统管理</a></li>
 </ul>
 
+<div class="edit_width">
+	<form>
+	  <div class="form-group">
 
-<div class="system_table_width">
-	<div class="panel panel-default">
-	  <div class="panel-body">更改密码</div>
-	  <div class="panel-footer">
-	  	<form>
-			<div class="system_chage_pwd"></div>
-		    <input type="email" class="form-control" placeholder="旧密码">
-		    <br/>
-		    <input type="password" class="form-control" placeholder="新密码">
-			<br/>
-		    <button type="submit" class="btn btn-primary">提交</button>
-		</form>
+	    <label>店铺名:</label>
+	    <input type="text" class="form-control"placeholder="请输入店铺名称">
 	  </div>
-	</div>
+
+	  <div class="form-group">
+	    <label>店铺地址:</label>
+	    <input type="text" class="form-control"placeholder="请输入店铺地址">
+	  </div>
+
+	  <button type="submit" class="btn btn-default">确定添加</button>
+	</form>
 </div>
 
 
